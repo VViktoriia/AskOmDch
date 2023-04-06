@@ -8,6 +8,7 @@ public class ShopNowButton {
     @Test
     public void buttonOpened(){
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.get("https://askomdch.com/");
         String url = "https://askomdch.com/store";
 

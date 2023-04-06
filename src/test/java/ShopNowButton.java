@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class ShopNowButton {
     @Test
-    public static void buttonOpened(){
+    public void buttonOpened(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://askomdch.com/");
         String url = "https://askomdch.com/store";
